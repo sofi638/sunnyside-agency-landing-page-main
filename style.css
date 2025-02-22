@@ -1,7 +1,5 @@
 body {
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  margin: 0;
 }
 
 .container {
@@ -14,15 +12,107 @@ body {
   color: white;
   padding: 10px;
   display: flex;
+  flex-direction: column;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .cont-about {
   display: flex;
+  gap: 40px;
 }
-
 .contact {
   background-color: white;
   padding: 15px;
   color: black;
   border-radius: 30px;
   height: 20px;
+  margin-top: -4px;
+}
+
+.we {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.arrow {
+  width: 20px;
+  margin: auto;
+  margin-top: -90px;
+}
+
+.cont-brand {
+  display: flex;
+}
+
+.text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  min-width: 50%;
+}
+.img-div {
+  width: 50%;
+  min-width: 50%;
+}
+
+.p-1 {
+  width: 400px;
+  color: gray;
+}
+
+.img-div img {
+  width: 100%;
+  padding: 0;
+}
+.cont-more {
+  display: flex;
+}
+
+.out {
+  width: 50%;
+}
+.out img {
+  width: 100%;
+}
+.p-2 {
+  width: 400px;
+  color: gray;
+}
+
+.text-div-container {
+  width: 50%;
+}
+.txt-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  min-width: 50%;
+}
+
+.container-pictures {
+  display: flex;
+}
+
+.grapic {
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  width: 700px;
+  height: 600px;
+  background-repeat: no-repeat;
+  min-width: 50%;
+  background-size: 100%;
+}
+
+.photography {
+  background-image: url(images/desktop/image-photography.jpg);
+  width: 700px;
+  height: 600px;
+  min-width: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
