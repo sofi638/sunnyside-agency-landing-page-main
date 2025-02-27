@@ -115,7 +115,7 @@ body {
   margin-top: 370px;
 }
 .p2{
-  width: 250px;
+  width: 300px;
   margin: auto;
 }
 .p3{
@@ -135,13 +135,14 @@ body {
 .clients{
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+
   display: flex;
-  flex-direction: column;
+ margin-top: 120px;
 }
 
 .h2-client{
   color: gray;
+  text-align: center;
 }
 
 
@@ -150,12 +151,83 @@ body {
   width: 100px;
 }
 .emily{
-
-align-items: start;
+margin-right: 150px;
 }
 
 
 
+.thomas-img{
+  border-radius: 100%;
+  width: 100px;
+}
+
 .p4{
-  width: 200px;
+  width: 300px;
+
+
+}
+.p5{
+  width: 300px;
+}
+.p6{
+  width: 300px;
+}
+.Jennie{
+  margin-left: 100px;
+}
+.jennie-img{
+  border-radius: 100%;
+  width: 100px;
+}
+.pp{
+  color: gray;
+}
+.cont-images{
+  display: flex;
+}
+.milk{
+  width: 400px;
+}
+.orange{
+  width: 400px;
+}
+.cone{
+  width: 400px;
+}
+.sugarcubs{
+  width: 400px;
+}
+
+.sunnyside{
+  margin-top: -20px;
+  background-color: hsl(168, 44%, 55%);
+  width: 100%;
+  height: 300px;
+}
+
+.sunny{
+  color: hsl(212, 27%, 19%);
+ text-align: center;
+
+}
+
+.three-txt{
+  display: flex;
+  color: hsl(168, 46%, 26%);
+gap: 30px;
+margin-left: 630px;
+}
+.icons{
+  margin-top: 100px;
+  margin-left: 700px;
+
+}
+.fb{
+  margin-right: 20px;
+}
+.insta{
+  margin-right: 20px;
+}
+.twit{
+  margin-right: 20px;
 }
