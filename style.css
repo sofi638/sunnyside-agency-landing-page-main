@@ -98,136 +98,126 @@ body {
 .container-pictures {
   display: flex;
   text-align: center;
-
 }
 
 .grapic {
   background-image: url(images/desktop/image-graphic-design.jpg);
   width: 700px;
   height: 600px;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   min-width: 50%;
-  background-size: 100%;
   color: rgb(18, 117, 18);
+  justify-content: center;
+  align-items: end;
+  display: flex;
+}
 
-}
-.txt{
-  margin-top: 370px;
-}
-.p2{
+.p2 {
   width: 300px;
-  margin: auto;
 }
-.p3{
+.p3 {
   width: 300px;
-  margin: auto;
 }
 .photography {
   background-image: url(images/desktop/image-photography.jpg);
   width: 700px;
   height: 600px;
   min-width: 50%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
- color: rgb(27, 27, 145);
+  color: rgb(27, 27, 145);
+  justify-content: center;
+  align-items: end;
+  display: flex;
 }
 
-.clients{
+.clients {
   align-items: center;
   justify-content: center;
 
   display: flex;
- margin-top: 120px;
+  margin-top: 120px;
 }
 
-.h2-client{
+.h2-client {
   color: gray;
   text-align: center;
 }
 
-
-.emily-img{
+.emily-img {
   border-radius: 100%;
   width: 100px;
 }
-.emily{
-margin-right: 150px;
+.emily {
+  margin-right: 150px;
 }
 
-
-
-.thomas-img{
+.thomas-img {
   border-radius: 100%;
   width: 100px;
 }
 
-.p4{
-  width: 300px;
-
-
-}
-.p5{
+.p4 {
   width: 300px;
 }
-.p6{
+.p5 {
   width: 300px;
 }
-.Jennie{
+.p6 {
+  width: 300px;
+}
+.Jennie {
   margin-left: 100px;
 }
-.jennie-img{
+.jennie-img {
   border-radius: 100%;
   width: 100px;
 }
-.pp{
+.pp {
   color: gray;
 }
-.cont-images{
+.cont-images {
   display: flex;
 }
-.milk{
-  width: 400px;
+.milk {
+  width: 25%;
 }
-.orange{
-  width: 400px;
+.orange {
+  width: 25%;
 }
-.cone{
-  width: 400px;
+.cone {
+  width: 25%;
 }
-.sugarcubs{
-  width: 400px;
+.sugarcubs {
+  width: 25%;
 }
 
-.sunnyside{
+.sunnyside {
   margin-top: -20px;
   background-color: hsl(168, 44%, 55%);
   width: 100%;
   height: 300px;
 }
 
-.sunny{
+.sunny {
   color: hsl(212, 27%, 19%);
- text-align: center;
-
+  text-align: center;
 }
 
-.three-txt{
+.three-txt {
   display: flex;
   color: hsl(168, 46%, 26%);
-gap: 30px;
-margin-left: 630px;
-}
-.icons{
-  margin-top: 100px;
-  margin-left: 700px;
+  gap: 30px;
 
+  justify-content: center;
 }
-.fb{
-  margin-right: 20px;
-}
-.insta{
-  margin-right: 20px;
-}
-.twit{
-  margin-right: 20px;
+.icons {
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
 }
